@@ -1,0 +1,23 @@
+#navbar {
+    width: 150px;
+    background: rgba(0,0,0,0.1);
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;    
+}
+
+#main-doc {
+    position: absolute;
+    left: 150px;        
+}
+
+#navbar * {
+    padding: 15px;
+}
+
+#navbar a {
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
