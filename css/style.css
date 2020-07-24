@@ -1,26 +1,48 @@
-#navbar {
-    width: 150px;
-    background: rgba(0,0,0,0.1);
 
-    position: fixed;
-    left: 0;
-    top: 0;
-    bottom: 0;    
+#navbar {
+    width: 100%;
+    background: rgba(0,0,0,0.1);
 }
+
+
+@media (min-width: 400px) {
+    #navbar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;    
+        width: 150px;
+    }
+    
+    
+    #main-doc {
+        position: absolute;
+        left: 150px;        
+    }
+}
+
 
 
 #main-doc {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-    position: absolute;
-    left: 150px;        
+    font-size: 15px;    
 }
+
+
+
+
 .main-section {
     font-size: large;
     text-align: center;
     border-style: dashed;
     margin: 10%;
-    background-color: grey;
+}
+
+code {
+    background-color: lightgray;
+    display: block;
+    margin: 10px;
+    padding: 4px;
 }
 
 #navbar * {
@@ -30,10 +52,4 @@
 #navbar a {
     display: block;
     border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-@media (max-width: 400px) {
-    nav {
-        width: 100%;
-        position:fixed;
-    }
 }
