@@ -2,6 +2,7 @@
 #navbar {
     width: 100%;
     background: rgba(0,0,0,0.1);
+
 }
 
 
@@ -17,6 +18,7 @@
     
     #main-doc {
         position: absolute;
+        right: 0;
         left: 150px;        
     }
 }
@@ -25,9 +27,16 @@
 
 #main-doc {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;    
+    font-size: 15px;   
+    background-color: khaki;
+    
 }
 
+#section {
+    text-align: center;
+    margin: 0 auto;
+    
+}
 
 
 
@@ -36,6 +45,7 @@
     text-align: center;
     border-style: dashed;
     margin: 10%;
+    background-color:white;
 }
 
 code {
@@ -51,5 +61,7 @@ code {
 
 #navbar a {
     display: block;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    
+    color: black;
+
 }
